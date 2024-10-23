@@ -9,11 +9,6 @@ deploymentTarget = "static"
 publicDir = "dist"
 run = ["sh", "-c", "npm run dev"]
 
-[[ports]]
-localPort = 5173
-externalPort = 80
-exposeLocalhost = true
-
 [[deployment.responseHeaders]]
 path = "/*"
 name = "Access-Control-Allow-Origin"
