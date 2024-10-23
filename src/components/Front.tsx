@@ -1,9 +1,9 @@
-import React from 'react'
-import { Box, Text, Link} from '@chakra-ui/react'
-import { Element } from 'react-scroll'
-import TextBlock from './TextBlock'
-import Player from './Player'
-import Verse from './Verse'
+import React from "react";
+import { Box, Text, Link } from "@chakra-ui/react";
+import { Element } from "react-scroll";
+import TextBlock from "./TextBlock";
+import Player from "./Player";
+import Verse from "./Verse";
 
 interface FrontProps {
     setPage: (page: string) => void;
@@ -11,7 +11,7 @@ interface FrontProps {
     color?: string;
 }
 
-const Front: React.FC<FrontProps> = ({  bg = 'black' }) => {
+const Front: React.FC<FrontProps> = ({ bg = "black" }) => {
     // const scrollTo = (place: string, offset = 0) => {
     //     scroller.scrollTo(place, {
     //         duration: 1500,
@@ -79,7 +79,7 @@ const Front: React.FC<FrontProps> = ({  bg = 'black' }) => {
                         color="red.500"
                     >
                         Noel Paul Stookey.
-                    </Link>
+                    </Link>,
                 ]}
             />
 
@@ -94,7 +94,7 @@ const Front: React.FC<FrontProps> = ({  bg = 'black' }) => {
                 textAlign="center"
                 fontSize="sm"
             >
-                Version July 26 2022{" "}
+                Version October 23 2024{" "}
             </Text>
         </Box>
     );
